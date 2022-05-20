@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/birthday_navigation"
+    app:startDestination="@id/listBirthdayFragment3">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.market.BirthdayFragments.SearchFragment"
+        android:label="searchlist_fragment"
+        tools:layout="@layout/searchlist_fragment" />
+    <fragment
+        android:id="@+id/listBirthdayFragment3"
+        android:name="com.example.market.BirthdayFragments.ListBirthdayFragment"
+        android:label="listbirth_fragment"
+        tools:layout="@layout/listbirth_fragment" />
+    <fragment
+        android:id="@+id/addBirthdayNote"
+        android:name="com.example.market.BirthdayFragments.AddBirthdayNote"
+        android:label="add_birthdaynote_fragment"
+        tools:layout="@layout/add_birthdaynote_fragment" />
+</navigation>
